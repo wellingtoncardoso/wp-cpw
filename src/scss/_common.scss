@@ -74,11 +74,11 @@ strong{
 }
 
 //back to
-.back-to{
+.back-to-top{
     position: relative;
     a{
-        position: absolute;
-        right: 22px;
+        position: fixed;
+        right: 30px;
         bottom: 44px;
         width: 40px;
         height: 40px;
@@ -160,7 +160,7 @@ strong{
             &.active{
                 .line1,
                 .line3{
-                    background-color: #FFF !important;
+                    background-color: $primary !important;
                 }
             }
         }
@@ -231,6 +231,12 @@ strong{
                     color: $error !important;
                 }
             }
+        }
+    }
+    .back-to-top{
+        a{
+            background-color: $primary;
+            color: #FFF !important;
         }
     }
 }

@@ -1,1 +1,1 @@
-(self.webpackChunkwp_cpw=self.webpackChunkwp_cpw||[]).push([[334],{334:()=>{$(document).ready((()=>{$(".back-to").click((()=>{$("html, body").animate({scrollTop:0},300)}))}))}}]);
+(self.webpackChunkwp_cpw=self.webpackChunkwp_cpw||[]).push([[334],{334:()=>{$(window).scroll((()=>{0!=$(window).scrollTop()?$(".back-to-top").css("display","block"):$(".back-to-top").css("display","none")})),$(".back-to-top").click((()=>{$("html, body").animate({scrollTop:0},300)}))}}]);

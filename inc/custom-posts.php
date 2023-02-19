@@ -1,6 +1,7 @@
 <?php
     // timeline <strong> wp_cpw_custom_post_timeline </strong> to the init action kook
     add_action( 'init', 'wp_Cpw_custom_post_timiline' );
+    
     function wp_Cpw_custom_post_timiline(){
         $label = array(
             'name'              => esc_html__( 'Timeline', 'wp-cpw' ),
@@ -29,6 +30,5 @@
             'menu_icon'         => 'dashicons-plus'
         );
         register_post_type( 'timeline', $args );
-    }
 
-    
+    }    

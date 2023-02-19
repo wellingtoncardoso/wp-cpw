@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    <div class="back-to">
+    <div class="back-to-top">
         <a href="#" aria-label="<?php esc_html_e( 'Back To Top', 'wp-cpw' ); ?>"></a>
     </div>
 </footer>
